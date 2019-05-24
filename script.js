@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         console.log(word);
         $.ajax({
-            url: "http://api.urbandictionary.com/v0/define?term=" + word,
+            url: "https://api.urbandictionary.com/v0/define?term=" + word,
             dataType: "jsonp",
             success: myCallback
         });
